@@ -1,5 +1,5 @@
 Name:    jruby
-Version:  1.6.5
+Version:  1.6.7
 Release:  1%{?dist}
 Summary:  Pure-Java Implementation of the Ruby Programming Language
 Group:    Development/System 
@@ -14,7 +14,7 @@ Source5:  jrubyc
 Source6:  jri
 Source7:  jgem
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
-Requires: java-1.6.0-openjdk
+Requires: java
 
 %description
 100% Pure-Java Implementation of the Ruby Programming Language
@@ -61,6 +61,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/bin
 
 %changelog
+* Thu Mar 22 2012 Jason Rogers <jason@jasonrogers.org> - 1.6.7-1
+- bump version
+
 * Wed Nov 23 2011 Jorge Falcão <falcao@intelie.com.br> - 1.6.5-1
 - bump version
 
