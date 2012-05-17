@@ -14,7 +14,6 @@ Source5:  jrubyc
 Source6:  jri
 Source7:  jgem
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
-Requires: java
 
 %description
 100% Pure-Java Implementation of the Ruby Programming Language
